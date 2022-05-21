@@ -1,0 +1,130 @@
+.container { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border: 2px solid gray;
+    width: 1000px;
+    height: 450px;
+    border-radius: 20px;
+    /* background-color: rgba(189, 210, 237, 0.499) ; */
+    background-color: rgb(113, 113, 129);
+    color: white;
+    margin-top: 50px;
+    font-family: cursive;
+
+}
+
+.header { 
+    margin-top: 110px;
+    text-align: center;
+    color: navy;
+    font-family: cursive;
+}
+
+.input { 
+    /* background-color: red; */
+    padding: 30px;
+}
+
+.input label { 
+    font-size: 16px;
+    display: block;
+}
+
+.input input { 
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+.country { 
+    /* background-color: red; */
+    padding: 30px;
+}
+
+.country label { 
+    font-size: 16px;
+    display: block;
+}
+
+.country select { 
+    width: 95%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.country option { 
+    font-size: 16px;
+}
+
+.category { 
+    /* background-color: blue; */
+    padding: 30px;
+}
+
+.category label { 
+    font-size: 16px;
+    display: block;
+}
+
+.category select { 
+    width: 95%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px
+}
+
+.category option { 
+    font-size: 16px;
+}
+
+.submitButton { 
+    text-align: center;
+}
+
+.submitButton button { 
+    background-color: rgb(36, 164, 36);
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.submitButton button:hover { 
+    width: 60%;
+    transition: all 1s ease-in;
+    background-color: navy;
+}
+
+.footer { 
+    background-color: navy;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 18px; 
+}
+
+@media (max-width : 440px){ 
+
+    .header{ 
+        margin-top: 300px;
+    }
+
+    .container {
+        margin-top: 200px;
+        width: 80%;
+        margin-bottom: 100px;
+    }
+}

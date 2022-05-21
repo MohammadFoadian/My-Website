@@ -1,0 +1,24 @@
+.header{ 
+    font-size: 30px;
+    text-align: center;
+    color: navy;
+    margin-bottom: 240px;
+}
+
+.link { 
+    font-size: 30px;
+    text-align: center;
+}
+
+.link a { 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: navy;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.link a:hover { 
+    padding: 40px;
+    transition: 1s;
+}

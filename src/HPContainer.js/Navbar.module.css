@@ -1,0 +1,80 @@
+.container { 
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(3, 3, 119, 0.949);
+    align-items: center;
+    height: 80px;
+    padding: 0px 0px;
+    position: fixed;
+    top: 5px;
+    z-index: 11;
+}
+
+.list { 
+    display: flex;
+    list-style: none;
+}
+
+.list li {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.list li a {
+    color: white;
+    text-decoration: none;
+    padding: 25.5px;
+}
+
+.list li a:hover { 
+    font-size: 26px;
+    transition: all 1s ease-in;
+    background-color: white;
+    color: navy;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.logo {
+   position: relative;
+   right: 40px;
+}
+
+.logo img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+@media (max-width : 440px) { 
+    
+    .container { 
+        display: block;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        height: fit-content;
+    }
+
+    .container img {
+        display: none;
+    }
+    
+    .list { 
+        display: block;
+        text-align: center;
+        position: relative;
+        right: 20px;
+    }
+
+    .list li{ 
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .list li a {
+        padding: 5px 80px;
+    }
+}

@@ -1,0 +1,116 @@
+.container {
+    background-color: aliceblue;
+    
+}
+
+.header { 
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    padding: 40px;
+    position: relative;
+    animation-name: chevv;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes chevv {
+    0% {
+        top: 0px;
+        color: navy;
+    }
+    50% {
+        top: 16px;
+        color: red;
+    }
+    100% {
+        top: 0px;
+        color: navy;
+    }
+}
+
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.first a {
+    text-decoration: none;
+    font-size: 20px;
+    color: navy;
+
+}
+
+.first p { 
+    font-size: 20px;
+    
+}
+
+.first img { 
+    width: 550px;
+    border-radius: 5px;
+}
+
+.first img:hover { 
+    border: 5px solid green;
+    width: 600px;
+    cursor: pointer;
+    transition: all ease-in 0.5s;
+    
+}
+
+.footer {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    line-height: 250%;
+}
+
+.footer a {
+    color: red;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.footer a:hover {
+    font-size: 24px;
+    transition: 1s;
+}
+
+@media (max-width : 440px) { 
+    .container { 
+        background-color: rgb(217, 221, 224);
+    }
+
+    /* .display { 
+        background-color: red;
+        width: 80%;
+        text-align: center;
+    } */
+
+    .first{  
+        background-color: white;
+        margin-top: 40PX;
+        width: 90%;
+        text-align: center;
+    }
+
+    .first img { 
+        width: 100%;
+        text-align: center;
+    }
+
+    .first img:hover{ 
+        width: 100%;
+        border: 1px solid green;
+    }
+
+    .footer {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,66 @@
+.result {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container { 
+    margin-top: 100px;
+    position: relative;
+    top: 400px;
+    border: 2px solid black;
+    width: 100%;
+    background-color: rgb(113, 113, 129);
+    color: white;
+}
+
+.box{     
+    display: flex;
+}
+
+.image { 
+    width: 400px;
+    padding: 10px;
+}
+
+.title {
+    width: 100%;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.imageDiv {
+    margin-right: 20px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.author {
+    display: block;
+    /* background-color: green; */
+}
+
+.publish {
+    font-size: 16px;
+    /* background-color: blue; */
+}
+
+
+@media (max-width : 440px) { 
+
+    .result { 
+        display: block;
+        margin-top: 200px;
+        margin-bottom: -120px;
+    }
+
+    .box {
+        display: block;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,80 @@
+body {
+    background-color:rgb(217, 221, 224);
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 40px;
+    overflow-x: hidden;
+}
+
+.welcome { 
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+    text-align: center;
+}
+
+.joinus {
+    font-size: 50px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: red;
+    position: relative;
+    animation-name: chevv;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+@keyframes chevv {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 16px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.button { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border: none;
+
+}
+
+
+.button button { 
+    text-decoration: none;
+    font-size: 30px;
+    padding: 40px;
+    background-color: navy;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+
+.button button:hover { 
+    background-color: red;
+    transition: 1s;
+    color: white;
+}
+
+@media (max-width : 440px) { 
+    
+    .button { 
+        position: relative;
+        top: 50px;
+        left: 120px;
+    }
+
+    .button button { 
+        font-size: 20px;
+        padding: 30px;
+    }
+
+}

@@ -1,0 +1,51 @@
+.coinContainer {
+    margin: 50px auto;
+    border: 1px solid silver;
+    border-radius: 10px;
+    /* width: fit-content; */
+    /* background-color: #f6f6f6; */
+    /* background-color: rgb(165, 186, 255); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(0, 33, 77, 0.681);
+    align-items: center;
+    
+  }
+
+  .input {
+    width: 500px;
+    margin-top: 50px;
+    border: 1px solid silver;
+    border-radius: 15px;
+    height: 20px;
+    padding: 10px 5px;
+    background-color: #f6f6f6;
+    transition: all 0.2s ease;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: white;
+    background: white;
+    box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
+    border: 1px solid rgb(76, 123, 222);
+  }
+  
+@media (max-width : 440px) { 
+
+    .head { 
+        margin-top:300px;
+    }
+
+    .input { 
+        width: 250px;
+    }
+
+    .header { 
+        display: none;
+    }
+}
